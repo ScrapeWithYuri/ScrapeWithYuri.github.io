@@ -12,6 +12,57 @@ This tutortial will walk you through how to scrape hundreds of thousands of Zill
 <li>Libraries: itertools, lxml, gevent, codecs, sys, json, time</li>
 <li>Zillow prorperty URLs</li></ul>
 
+<b>Update to your liking</b>
+
+<ul><li>Update where the program will read Zillow URLs from.</li></ul>
+
+{% highlight python %}
+with codecs.open('path_where_your_data_is_here', mode='r', encoding='utf-8') as f:
+    while True:
+        lines = list(islice(f, 50000))
+
+        if not lines:
+            break
+
+        for qm in lines:
+            hold = qm.replace('\n', '')
+            pool.apply_async(process, args=('https://www.zillow.com' + hold + '?fullpage=true', hold ,))
+        pool.join()
+{% endhighlight %}
+
+<ul><li>Update the save location. This is where your output will be saved.</li></ul>
+
+{% highlight python %}
+def write_file1(hold):
+    with codecs.open('path_where_you_want_saved_here', mode='a', encoding='utf-8') as f:
+        f.write("{}\n".format(hold))
+{% endhighlight %}
+
+<ul><li>The program will read data by 'slice.' In other words, this is how many lines will be read per loop. Update 50000 based on your needs.</li></ul>
+
+{% highlight python %}
+with codecs.open('path_where_your_data_is_here', mode='r', encoding='utf-8') as f:
+    while True:
+        lines = list(islice(f, 50000))
+
+        if not lines:
+            break
+
+        for qm in lines:
+            hold = qm.replace('\n', '')
+            pool.apply_async(process, args=('https://www.zillow.com' + hold + '?fullpage=true', hold ,))
+        pool.join()
+{% endhighlight %}
+
+<ul><li>The program will use worker threads to run searches simultaneously. The more threads, the more processing power your computer will require. Update 300 based on your needs.</li></ul>
+
+{% highlight python %}
+num_worker_threads = 300
+pool = Pool(num_worker_threads)
+{% endhighlight %}
+
+<b>Full Code</b>
+
 {% highlight python %}
 from lxml import html
 from gevent.pool import Pool
