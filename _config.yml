@@ -27,8 +27,8 @@ urls:
     - text: XML Feed
       url: /feed.xml
 
-url: "https://scrapewithyuri.github.io/blog"
-baseurl: "/blog"
+url: "https://scrapewithyuri.github.io"
+baseurl: ""
 paginate: 10
 per_page: 10
 paginate_path: "/page/:num/"
