@@ -4,12 +4,13 @@ title:  "Scrape Zillow - Hundreds of Thousands of Properties Pt. 2 w/o Tax Data"
 date:   2019-02-10 19:31:43 +0700
 categories: [python, web scraping, Zillow]
 ---
-This tutortial will walk you through how to scrape hundreds of thousands of Zillow property data. This article assumes you have Zillow property URLs and ZPIDs already or have already read the article Scrape Zillow - Hundreds of Thousands of Properties Pt. 1.
+This tutortial will walk you through how to scrape hundreds of thousands of Zillow property data. This article assumes you have Zillow property URLs already or have already read the article Scrape Zillow - Hundreds of Thousands of Properties Pt. 1.
 
-<b>Prerequites</b>
+<ul><b>Prerequites</b>
 
-1. Python 2
-2. Libraries: itertools, lxml, gevent, codecs, sys, json, time
+<li>Python 2</li>
+<li>Libraries: itertools, lxml, gevent, codecs, sys, json, time</li>
+<li>Zillow prorperty URLs</li></ul>
 
 {% highlight ruby %}
 from lxml import html
@@ -28,7 +29,7 @@ def response(site, f):
     return qq.text
 
 def write_file1(hold):
-    with codecs.open('C:\\Users\Russi\Desktop\T.txt', mode='a', encoding='utf-8') as f:
+    with codecs.open('path_where_you_want_saved_here', mode='a', encoding='utf-8') as f:
         f.write("{}\n".format(hold))
 
 def tree_check1(tree, hold, f):
@@ -92,7 +93,7 @@ headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; Touc
     'Accept-Encoding': 'gzip, deflate, br',
     'Upgrade-Insecure-Requests': '1',
     'Cache-Control': 'max-age=0',
-    'Cookie': 'AWSALB=QJacahdr8WQeYl9Tpu/orPjKGrc67gM0+FX5lr2fSx2q+LmoY+HleoJlqGgNvU33m+RARRKzEHf7b6hEZbLJ0W0RGmKFGEqgYwBOxWsRTVSm8zY67NRfLx6oPaD7;',
+    'Cookie': 'AWSALB=update_your_cookie_here',
 }
 
 X_PATH1 = "//*[@id='hdpApolloPreloadedData']/text()"
@@ -100,7 +101,7 @@ X_PATH1 = "//*[@id='hdpApolloPreloadedData']/text()"
 num_worker_threads = 300
 pool = Pool(num_worker_threads)
 
-with codecs.open('C:\\Users\Russi\Desktop\TTTT.txt', mode='r', encoding='utf-8') as f:
+with codecs.open('path_where_your_data_is_here', mode='r', encoding='utf-8') as f:
     while True:
         lines = list(islice(f, 50000))
 
