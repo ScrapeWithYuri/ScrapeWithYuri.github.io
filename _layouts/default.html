@@ -116,7 +116,7 @@ layout: compress
     <div class="container">
       <div class="col-sm-3">
         <div class="fixed-condition">
-          <a href="/"><img class="profile-avatar" src="{{ site.avatar_url }}" height="75px" width="75px" /></a>
+          <a href="/"><img class="profile-avatar" src="{{ site.avatar_url | prepend: site.baseurl | replace: '//', '/' }}" height="75px" width="75px" /></a>
           <h1 class="author-name">{{ site.author }}</h1>
           {% if site.about %}
             <div class="profile-about">
@@ -137,9 +137,9 @@ layout: compress
           <hr />
           <ul class="sidebar-nav">
             <strong>Navigation</strong>
-            <li><a href="/">Home</a></li>
+            <li><a href="{{ "/" | prepend: site.baseurl | replace: '//', '/' }}">Home</a></li>
             {% for i in site.urls %}
-              <li><a class="about" href="{{ i.url }}">{{ i.text }}</a></li>
+              <li><a class="about" href="{{ i.url | prepend: site.baseurl | replace: '//', '/' }}"}}">{{ i.text }}</a></li>
             {% endfor %}
           </ul>
         </div>
@@ -166,9 +166,9 @@ layout: compress
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <script src="/static/js/bootstrap.min.js"></script>
-    <script src="/static/js/super-search.js"></script>
-    <script src="/static/js/thickbox-compressed.js"></script>
-    <script src="/static/js/projects.js"></script>
+    <script src="{{ "/static/js/bootstrap.min.js" | prepend: site.baseurl | replace: '//', '/' }}></script>
+    <script src="{{ "/static/js/super-search.js" | prepend: site.baseurl | replace: '//', '/' }}></script>
+    <script src="{{ "/static/js/thickbox-compressed.js" | prepend: site.baseurl | replace: '//', '/' }}></script>
+    <script src="{{ "/static/js/projects.js" | prepend: site.baseurl | replace: '//', '/' }}></script>
   </body>
 </html>
