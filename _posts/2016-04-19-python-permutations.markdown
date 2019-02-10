@@ -1,10 +1,17 @@
 ---
 layout: post
-title:  "Python Permutations"
-date:   2016-04-19 19:31:43 +0700
-categories: [python]
+title:  "Scrape Zillow - Hundreds of Thousands of Properties Pt. 2 w/o Tax Data"
+date:   2019-02-10 19:31:43 +0700
+categories: [python, web scraping, Zillow]
 ---
-This simply how to implement the module of permutations in python.
+This tutortial will walk you through how to scrape hundreds of thousands of Zillow property data. This article assumes you have Zillow property URLs and ZPIDs already or have already read the Scrape Zillow - Hundreds of Thousands of Properties Pt. 1 article.
+
+1. Prerequites
+
+  Python 2
+  Libraries: itertools, lxml, gevent, codecs, sys, json, time
+  
+2. 
 
 {% highlight ruby %}
 >>> from itertools import permutations
