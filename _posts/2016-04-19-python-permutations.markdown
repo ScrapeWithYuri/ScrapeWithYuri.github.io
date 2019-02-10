@@ -11,14 +11,16 @@ This tutortial will walk you through how to scrape hundreds of thousands of Zill
 <ul><li>Python 2</li>
 <li>Libraries: itertools, lxml, gevent, codecs, sys, json, time</li>
 <li>Zillow prorperty URLs without the zillow.com prefix</li></ul>
-
+<br/>
 
 <b>General Overview</b>
 
-The below program will read in Zillow property URLs (without the zillow.com prefix). The program will loop the URLs in slices (i.e. X lines of URLs per loop) then run the URLs via multiple threads. Using multiple threads allows the program to much faster than searching with a single thread.
+The below program will read in Zillow property URLs (without the zillow.com prefix). The program will loop the URLs in slices (i.e. X lines of URLs per loop) then run the URLs via multiple threads. Using multiple threads allows the program to be much faster than searching with a single thread (i.e. one-by-one).
 
-Generally, the program is pinging the Zillow property URL and looking for the hdpApolloPreloadedData HTML element by ID. This HTML element has a JSON data about the property, which the program processes. After extracting the relevant data, the program will save the data in as tab-delimited based on your chosen location.
+Generally, the program is pinging the Zillow property URL and looking for the hdpApolloPreloadedData HTML element by ID. This HTML element has JSON data about the property, which the program processes. After extracting the relevant data, the program will save the data in as tab-delimited based on your chosen location.
 
+The downside by pinging the Zillow URL directly is that property tax and school information is not accessible. Extracting this data is explained in the article Scrape Zillow - Hundreds of Thousands of Properties Pt. 2 w/ Tax Data.
+<br/>
 
 <b>Update to your liking</b>
 
@@ -68,7 +70,7 @@ with codecs.open('path_where_your_data_is_here', mode='r', encoding='utf-8') as 
 num_worker_threads = 300
 pool = Pool(num_worker_threads)
 {% endhighlight %}
-
+<br/>
 
 <b>Full Code</b>
 
