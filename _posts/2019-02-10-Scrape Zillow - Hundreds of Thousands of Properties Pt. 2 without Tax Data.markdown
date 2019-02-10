@@ -6,6 +6,8 @@ categories: [python, web scraping, Zillow]
 ---
 This tutortial will walk you through how to scrape hundreds of thousands of Zillow property data. This article assumes you have Zillow property URLs already or have already read the article Scrape Zillow - Hundreds of Thousands of Properties Pt. 1.
 
+<br>
+
 <ol start="1"><li><b>Prerequites</b></li></ol>
 
 <ul><li>Python 2</li>
