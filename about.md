@@ -10,4 +10,4 @@ As a freelancer, I have spent time solving data aggregation problems across majo
 
 UpWork: https://www.upwork.com/freelancers/~01d1c41e6478fca071
 
-email: scrapewithyuri@gmail.com
+Email: scrapewithyuri@gmail.com
