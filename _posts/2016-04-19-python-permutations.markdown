@@ -12,7 +12,7 @@ This tutortial will walk you through how to scrape hundreds of thousands of Zill
 <li>Libraries: itertools, lxml, gevent, codecs, sys, json, time</li>
 <li>Zillow prorperty URLs</li></ul>
 
-{% highlight ruby %}
+{% highlight python %}
 from lxml import html
 from gevent.pool import Pool
 from gevent import monkey; monkey.patch_all()
