@@ -24,6 +24,25 @@ The downside by pinging the Zillow URL directly is that property tax and school 
 
 <br>
 
+<b>Required Update</b>
+
+<ul><li>Before you start, open a web browser. Open the developer window (either CTRL + SHIFT + I or right click > press Inspect). Search any Zillow property URL, and click on the Network tab of the developer tab. In the Networ tab, scroll to the top and click on the URL you had searched. In the Response Headers section, there should be a set-cookie value. Copy the AWSALB cookie value into update_your_cookie_here section of the code.</li></ul>
+
+{% highlight python %}
+headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; Touch; rv:11.0) like Gecko',
+    'Connection': 'close',
+    'Host': 'www.zillow.com',
+    'Accept-Language': 'en-US',
+    'Accept': 'text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8',
+    'Accept-Encoding': 'gzip, deflate, br',
+    'Upgrade-Insecure-Requests': '1',
+    'Cache-Control': 'max-age=0',
+    'Cookie': 'AWSALB=update_your_cookie_here',
+}
+{% endhighlight %}
+
+<br>
+
 <b>Update to your liking</b>
 
 <ul><li>Update where the program will read Zillow URLs from. Update the value path_where_your_data_is_here.</li></ul>
@@ -54,7 +73,7 @@ def write_file1(hold):
 
 <br>
 
-<ul><li>The program will read data by 'slice.' In other words, this is how many lines will be read per loop. The more lines read in per loop, the more memory is taken from your computer. Update 50000 based on your needs.</li></ul>
+<ul><li>The program will read data by 'slice.' In other words, this is how many lines will be read per loop. The more lines read in per loop, the more memory is used by your computer. Update 50000 based on your needs.</li></ul>
 
 {% highlight python %}
 with codecs.open('path_where_your_data_is_here', mode='r', encoding='utf-8') as f:
