@@ -15,13 +15,12 @@ layout: compress
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" href="/static/img/favicon.ico" />
+    <link rel="shortcut icon" href="{{ "/static/img/favicon.ico" | prepend: site.baseurl | replace: '//', '/' }}" />
     <title>{% if page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.author }}{% endif %}</title>
     <meta name="author" content="{{ site.author }}" />
     <meta name="description" content="{% if page.title %}{{ page.title }}{% else %}{{ site.description }}{% endif %}" />
-    <meta name="keywords" content="{% if page.title %}{{ page.title }}, {{ site.title }}, {% for categ in page.categories %}{{ categ }}{% if forloop.last == false %}, {% endif %}{% endfor %}{% else %}{{ site.title }}, {% for category in site.categories %}{% capture categories_slug %}{{ category | first }}{% endcapture %}{% for categ in categories_slug %}{{ categ }}{% endfor %}{% if forloop.last == false %}, {% endif %}{% endfor %}{% endif %}" />
-    <link rel="alternate" type="application/rss+xml" title="RSS" href="/feed.xml">
-    <meta content="{{ site.share.fb_appid }}" property="fb:app_id">
+    <meta name="keywords" content="web scrape, scraping, python, excel vba, selenium, scrapy, programming" />
+    <link rel="alternate" type="application/rss+xml" title="RSS" href="{{ "/feed.xml"  | prepend: site.baseurl | replace: '//', '/' }}">
     <meta content="{{ site.title }}" property="og:site_name">
 
     {% if page.noindex %}
@@ -96,16 +95,16 @@ layout: compress
     <!-- Font awesome icons -->
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
     <!-- syntax highlighting CSS -->
-    <link rel="stylesheet" href="/static/css/syntax.css">
+    <link rel="stylesheet" href="{{ "/static/css/syntax.css" | prepend: site.baseurl | replace: '//', '/' }}">
     <!-- Bootstrap core CSS -->
-    <link href="/static/css/bootstrap.min.css" rel="stylesheet">
+    <link href="{{ "/static/css/bootstrap.min.css" | prepend: site.baseurl | replace: '//', '/' }}" rel="stylesheet">
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300italic,300,400italic,700&amp;subset=latin,latin-ext" rel="stylesheet" type="text/css">
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="/static/css/super-search.css">
-    <link rel="stylesheet" href="/static/css/thickbox.css">
-    <link rel="stylesheet" href="/static/css/projects.css">
-    <link rel="stylesheet" href="/static/css/main.css">
+    <link rel="stylesheet" href="{{ "/static/css/super-search.css" | prepend: site.baseurl | replace: '//', '/' }}">
+    <link rel="stylesheet" href="{{ "/static/css/thickbox.css" | prepend: site.baseurl | replace: '//', '/' }}">
+    <link rel="stylesheet" href="{{ "/static/css/projects.css" | prepend: site.baseurl | replace: '//', '/' }}">
+    <link rel="stylesheet" href="{{ "/static/css/main.css" | prepend: site.baseurl | replace: '//', '/' }}">
 
     {% if jekyll.environment == "production" %}
       <!-- Google Analytics -->
@@ -124,7 +123,7 @@ layout: compress
     <div class="container">
       <div class="col-sm-3">
         <div class="fixed-condition">
-          <a href="/"><img class="profile-avatar" src="{{ site.avatar_url }}" height="75px" width="75px" /></a>
+          <a href="/"><img class="profile-avatar" src="{{ site.avatar_url | prepend: site.baseurl | replace: '//', '/' }}" height="75px" width="75px" /></a>
           <h1 class="author-name">{{ site.author }}</h1>
           {% if site.about %}
             <div class="profile-about">
@@ -145,9 +144,9 @@ layout: compress
           <hr />
           <ul class="sidebar-nav">
             <strong>Navigation</strong>
-            <li><a href="/">Home</a></li>
+            <li><a href="{{ "/" | prepend: site.baseurl | replace: '//', '/' }}">Home</a></li>
             {% for i in site.urls %}
-              <li><a class="about" href="{{ i.url }}">{{ i.text }}</a></li>
+              <li><a class="about" href="{{ i.url | prepend: site.baseurl | replace: '//', '/' }}">{{ i.text }}</a></li>
             {% endfor %}
           </ul>
         </div>
@@ -174,9 +173,9 @@ layout: compress
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <script src="/static/js/bootstrap.min.js"></script>
-    <script src="/static/js/super-search.js"></script>
-    <script src="/static/js/thickbox-compressed.js"></script>
-    <script src="/static/js/projects.js"></script>
+    <script src="{{ "/static/js/bootstrap.min.js" | prepend: site.baseurl | replace: '//', '/' }}"></script>
+    <script src="{{ "/static/js/super-search.js" | prepend: site.baseurl | replace: '//', '/' }}"></script>
+    <script src="{{ "/static/js/thickbox-compressed.js" | prepend: site.baseurl | replace: '//', '/' }}"></script>
+    <script src="{{ "/static/js/projects.js" | prepend: site.baseurl | replace: '//', '/' }}"></script>
   </body>
 </html>
