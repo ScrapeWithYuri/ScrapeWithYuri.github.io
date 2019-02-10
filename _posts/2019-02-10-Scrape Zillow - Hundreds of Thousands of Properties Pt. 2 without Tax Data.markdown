@@ -14,7 +14,7 @@ This tutortial will walk you through how to scrape hundreds of thousands of Zill
 
 <br>
 
-<b>General Overview</b>
+<ol><li><b>General Overview</b></li></ol>
 
 The full code is at the bottom of the article. Please read the <b>Required Update</b> section before trying to implement the code, as well as the <b>Update to your liking</b> section.
 
