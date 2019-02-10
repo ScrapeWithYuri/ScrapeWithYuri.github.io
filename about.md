@@ -4,6 +4,6 @@ title: About
 permalink: /about/
 ---
 
-I'm Programmer for Python & Django. I've made quite a few web apps, especially on Django. Now, I am doing more on backend.
+I am a programmer and a CPA accountant. My primary focus is on large-scale, efficient web scraping using Python, Scrapy, Selenium and VBA.
 
-email: agus[at]python.web.id
+email: scrapewithyuri@gmail.com
