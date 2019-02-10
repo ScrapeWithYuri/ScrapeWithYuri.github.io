@@ -42,6 +42,8 @@ with codecs.open('path_where_your_data_is_here', mode='r', encoding='utf-8') as 
         pool.join()
 {% endhighlight %}
 
+<br>
+
 <ul><li>Update the save location. This is where your output will be saved. Update the value path_where_you_want_saved_here.</li></ul>
 
 {% highlight python %}
@@ -49,6 +51,8 @@ def write_file1(hold):
     with codecs.open('path_where_you_want_saved_here', mode='a', encoding='utf-8') as f:
         f.write("{}\n".format(hold))
 {% endhighlight %}
+
+<br>
 
 <ul><li>The program will read data by 'slice.' In other words, this is how many lines will be read per loop. The more lines read in per loop, the more memory is taken from your computer. Update 50000 based on your needs.</li></ul>
 
@@ -65,6 +69,8 @@ with codecs.open('path_where_your_data_is_here', mode='r', encoding='utf-8') as 
             pool.apply_async(process, args=('https://www.zillow.com' + hold + '?fullpage=true', hold ,))
         pool.join()
 {% endhighlight %}
+
+<br>
 
 <ul><li>The program will use worker threads to run searches simultaneously. The more threads, the more processing power your computer will require. Update 300 based on your needs.</li></ul>
 
