@@ -16,7 +16,7 @@ This tutortial will walk you through how to scrape hundreds of thousands of Zill
 
 <b>General Overview</b>
 
-The full code is at the bottom of the article. Please read the <b>Required Update</b> section before trying to implement the code, as well as the <b>>Update to your liking</b> section.
+The full code is at the bottom of the article. Please read the <b>Required Update</b> section before trying to implement the code, as well as the <b>Update to your liking</b> section.
 
 The below program will read in Zillow property URLs (without the zillow.com prefix). The program will loop the URLs in slices (i.e. X lines of URLs per loop) then run the URLs via multiple threads. Using multiple threads allows the program to be much faster than searching with a single thread (i.e. one-by-one).
 
