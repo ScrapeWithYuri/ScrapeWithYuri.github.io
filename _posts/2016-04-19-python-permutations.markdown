@@ -6,7 +6,7 @@ categories: [python]
 ---
 This simply how to implement the module of permutations in python.
 
-{% highlight ruby %}
+{% highlight python %}
 >>> from itertools import permutations
 >>> perms = [''.join(p)+"@gmail.com" for p in permutations('abc', 3)]
 >>> for x in range(0, len(perms)):
