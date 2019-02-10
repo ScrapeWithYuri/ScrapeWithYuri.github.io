@@ -6,7 +6,7 @@ categories: [python, web scraping, Zillow]
 ---
 This tutortial will walk you through how to scrape hundreds of thousands of Zillow property data. This article assumes you have Zillow property URLs already or have already read the article Scrape Zillow - Hundreds of Thousands of Properties Pt. 1.
 
-<b>Prerequites</b>
+<ol start="1"><li><b>Prerequites</b></li></ol>
 
 <ul><li>Python 2</li>
 <li>Libraries: itertools, lxml, gevent, codecs, sys, json, time</li>
@@ -14,7 +14,7 @@ This tutortial will walk you through how to scrape hundreds of thousands of Zill
 
 <br>
 
-<ol start="1"><li><b>General Overview</b></li></ol>
+<ol start="2"><li><b>General Overview</b></li></ol>
 
 The full code is at the bottom of the article. Please read the <b>Required Update</b> section before trying to implement the code, as well as the <b>Update to your liking</b> section.
 
@@ -26,7 +26,7 @@ The downside by pinging the Zillow URL directly is that property tax and school 
 
 <br>
 
-<ol start="2"><li><b>Required Update</b></li></ol>
+<ol start="3"><li><b>Required Update</b></li></ol>
 
 <ul><li>Before you start, open a web browser. Open the developer window (either CTRL + SHIFT + I or right click > press Inspect). Search any Zillow property URL, and click on the Network tab of the developer tab. In the Networ tab, scroll to the top and click on the URL you had searched. In the Response Headers section, there should be a set-cookie value. Copy the AWSALB cookie value into update_your_cookie_here section of the code.</li></ul>
 
@@ -49,7 +49,7 @@ headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; Touc
 
 <br>
 
-<ol start="3"><li><b>Update to your liking</b></li></ol>
+<ol start="4"><li><b>Update to your liking</b></li></ol>
 
 <ul><li>Update where the program will read Zillow URLs from. Update the value path_where_your_data_is_here.</li></ul>
 
@@ -106,7 +106,7 @@ pool = Pool(num_worker_threads)
 
 <br>
 
-<ol start="4"><li><b>Full Code</b></li></ol>
+<ol start="5"><li><b>Full Code</b></li></ol>
 
 {% highlight python %}
 from lxml import html
