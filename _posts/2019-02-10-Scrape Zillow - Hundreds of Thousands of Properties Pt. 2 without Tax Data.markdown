@@ -49,7 +49,7 @@ headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; Touc
 
 <br>
 
-<ol start="3"><b>Update to your liking</b></li></ol>
+<ol start="3"><li><b>Update to your liking</b></li></ol>
 
 <ul><li>Update where the program will read Zillow URLs from. Update the value path_where_your_data_is_here.</li></ul>
 
@@ -106,7 +106,7 @@ pool = Pool(num_worker_threads)
 
 <br>
 
-<ol start="4"><b>Full Code</b></li></ol>
+<ol start="4"><li><b>Full Code</b></li></ol>
 
 {% highlight python %}
 from lxml import html
