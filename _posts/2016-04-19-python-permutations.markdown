@@ -14,7 +14,7 @@ This tutortial will walk you through how to scrape hundreds of thousands of Zill
 
 <b>Update to your liking</b>
 
-<ul><li>Update where the program will read Zillow URLs from.</li></ul>
+<ul><li>Update where the program will read Zillow URLs from. Update the value path_where_your_data_is_here.</li></ul>
 
 {% highlight python %}
 with codecs.open('path_where_your_data_is_here', mode='r', encoding='utf-8') as f:
@@ -30,7 +30,7 @@ with codecs.open('path_where_your_data_is_here', mode='r', encoding='utf-8') as 
         pool.join()
 {% endhighlight %}
 
-<ul><li>Update the save location. This is where your output will be saved.</li></ul>
+<ul><li>Update the save location. This is where your output will be saved. Update the value path_where_you_want_saved_here.</li></ul>
 
 {% highlight python %}
 def write_file1(hold):
@@ -38,7 +38,7 @@ def write_file1(hold):
         f.write("{}\n".format(hold))
 {% endhighlight %}
 
-<ul><li>The program will read data by 'slice.' In other words, this is how many lines will be read per loop. Update 50000 based on your needs.</li></ul>
+<ul><li>The program will read data by 'slice.' In other words, this is how many lines will be read per loop. The more lines read in per loop, the more memory is taken from your computer. Update 50000 based on your needs.</li></ul>
 
 {% highlight python %}
 with codecs.open('path_where_your_data_is_here', mode='r', encoding='utf-8') as f:
