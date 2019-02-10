@@ -34,7 +34,7 @@ urls:
       url: /feed.xml
 
 url: "https://scrapewithyuri.github.io/blog"
-baseurl: "https://scrapewithyuri.github.io/blog"
+baseurl: "/blog"
 paginate: 10
 per_page: 10
 paginate_path: "/page/:num/"
