@@ -43,6 +43,10 @@ headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; Touc
 
 <br>
 
+<img src="{{ "/static/img/zillow.jpg" | prepend: site.baseurl | replace: '//', '/' }}" />
+
+<br>
+
 <b>Update to your liking</b>
 
 <ul><li>Update where the program will read Zillow URLs from. Update the value path_where_your_data_is_here.</li></ul>
