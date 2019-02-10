@@ -4,7 +4,7 @@ title:  "Scrape Zillow - Hundreds of Thousands of Properties Pt. 2 w/o Tax Data"
 date:   2019-02-10 19:31:43 +0700
 categories: [python, web scraping, Zillow]
 ---
-This tutortial will walk you through how to scrape hundreds of thousands of Zillow property data. This article assumes you have Zillow property URLs and ZPIDs already or have already read the Scrape Zillow - Hundreds of Thousands of Properties Pt. 1 article.
+This tutortial will walk you through how to scrape hundreds of thousands of Zillow property data. This article assumes you have Zillow property URLs and ZPIDs already or have already read the article Scrape Zillow - Hundreds of Thousands of Properties Pt. 1.
 
 Prerequites
 
