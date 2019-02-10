@@ -18,6 +18,8 @@ This tutortial will walk you through how to scrape hundreds of thousands of Zill
 
 The full code is at the bottom of the article. Please read the <b>Required Update</b> section before trying to implement the code, as well as the <b>Update to your liking</b> section.
 
+The program will likely run into Captcha issues after ten thousand searches and will shut off. After the captcha comes up, open every browser you have on your computer, search Zillow and pass the Captcha test manually. It may take a few manual passes to work. Rinse-and-repeat.
+
 The below program will read in Zillow property URLs (without the zillow.com prefix). The program will loop the URLs in slices (i.e. X lines of URLs per loop) then run the URLs via multiple threads. Using multiple threads allows the program to be much faster than searching with a single thread (i.e. one-by-one).
 
 Generally, the program is pinging the Zillow property URL and looking for the hdpApolloPreloadedData HTML element by ID. This HTML element has JSON data about the property, which the program processes. After extracting the relevant data, the program will save the data in as tab-delimited based on your chosen location.
