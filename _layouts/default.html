@@ -139,7 +139,7 @@ layout: compress
             <strong>Navigation</strong>
             <li><a href="{{ "/" | prepend: site.baseurl | replace: '//', '/' }}">Home</a></li>
             {% for i in site.urls %}
-              <li><a class="about" href="{{ i.url | prepend: site.baseurl | replace: '//', '/' }}"}}">{{ i.text }}</a></li>
+              <li><a class="about" href="{{ i.url | prepend: site.baseurl | replace: '//', '/' }}">{{ i.text }}</a></li>
             {% endfor %}
           </ul>
         </div>
@@ -166,9 +166,9 @@ layout: compress
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <script src="{{ "/static/js/bootstrap.min.js" | prepend: site.baseurl | replace: '//', '/' }}></script>
-    <script src="{{ "/static/js/super-search.js" | prepend: site.baseurl | replace: '//', '/' }}></script>
-    <script src="{{ "/static/js/thickbox-compressed.js" | prepend: site.baseurl | replace: '//', '/' }}></script>
-    <script src="{{ "/static/js/projects.js" | prepend: site.baseurl | replace: '//', '/' }}></script>
+    <script src="{{ "/static/js/bootstrap.min.js" | prepend: site.baseurl | replace: '//', '/' }}"></script>
+    <script src="{{ "/static/js/super-search.js" | prepend: site.baseurl | replace: '//', '/' }}"></script>
+    <script src="{{ "/static/js/thickbox-compressed.js" | prepend: site.baseurl | replace: '//', '/' }}"></script>
+    <script src="{{ "/static/js/projects.js" | prepend: site.baseurl | replace: '//', '/' }}"></script>
   </body>
 </html>
