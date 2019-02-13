@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Welcome to Simply Grey"
-date:   2013-12-23 00:18:23 +0700
+date:   2018-12-23 00:18:23 +0700
 categories: [jekyll]
 ---
 SimplyGrey is a simple, easy to use theme for Jekyll that compromises of mainly grey colours. A lot of people enjoy the simplistic look of grey and also find it easier to read.
