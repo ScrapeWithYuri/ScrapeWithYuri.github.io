@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "get Month Name [CF]"
-date:   2016-06-11 03:43:45 +0700
+date:   2018-06-11 03:43:45 +0700
 categories: [python, codefights]
 ---
 
