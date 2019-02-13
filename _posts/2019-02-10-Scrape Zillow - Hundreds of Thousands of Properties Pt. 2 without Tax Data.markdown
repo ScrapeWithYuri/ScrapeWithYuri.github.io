@@ -2,7 +2,7 @@
 layout: post
 title:  "Scrape Zillow - Hundreds of Thousands of Properties Pt. 2 without Tax Data"
 date:   2019-02-10 19:31:43 +0700
-categories: [python, web scraping, Zillow]
+categories: [python, web scraping, zillow]
 ---
 
 <br>
