@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Find the number of even digits in the given integer [CF]"
-date:   2016-06-11 03:39:03 +0700
+date:   2018-06-11 03:39:03 +0700
 categories: [python, codefights]
 ---
 
