@@ -29,8 +29,6 @@ The <b><a href="#update-to-your-liking">Update to your liking</a></b> section wi
 
 <ol start="3" id="update-to-your-liking"><li><b>Update to your liking</b></li></ol>
 
-<ul><li>Update the sheets where zip codes are read and where Zillow URLs are written to.</li></ul>
-
 You will notice Sheet1 and Sheet2 in the code. These are referencing the code names in VBA. Update depending on how your sheet structure is set up.
 
 <br>
