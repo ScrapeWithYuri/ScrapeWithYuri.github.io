@@ -39,7 +39,7 @@ You will notice Sheet1 and Sheet2 in the code. These are referencing the code na
 
 <ol start="4" id="full-code"><li><b>Full Code</b></li></ol>
 
-{% highlight visual basic %}
+{% highlight visualbasic %}
 Option Explicit
 #If VBA7 Then
     Public Declare PtrSafe Sub Sleep Lib "kernel32" (ByVal dwMilliseconds As LongPtr) 'For 64 Bit Systems
