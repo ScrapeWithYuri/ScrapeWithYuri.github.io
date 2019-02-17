@@ -35,7 +35,7 @@ You will notice Sheet1 and Sheet2 in the code. These are referencing the code na
 
 <br>
 
-<img src="{{ "/static/img/visual basic.jpg" | prepend: site.baseurl | replace: '//', '/' }}" />
+<img src="{{ "/static/img/visual basic.png" | prepend: site.baseurl | replace: '//', '/' }}" />
 
 <br>
 
