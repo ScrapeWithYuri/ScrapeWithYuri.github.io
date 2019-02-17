@@ -21,7 +21,7 @@ This tutortial will walk you through how to scrape hundreds of thousands of Zill
 
 <ol start="2"><li><b>General Overview</b></li></ol>
 
-The full code is at the bottom of the article. Please read the <b><a href="#required-update">Required Update</a></b> section before trying to implement the code, as well as the <b><a href="#update-to-your-liking">Update to your liking</a></b> section.
+The <a href="#full-code">full code</a> is at the bottom of the article. Please read the <b><a href="#required-update">Required Update</a></b> section before trying to implement the code, as well as the <b><a href="#update-to-your-liking">Update to your liking</a></b> section.
 
 The program will likely run into Captcha issues after ten thousand searches and will shut off. After the captcha comes up, open every browser you have on your computer, search Zillow and pass the Captcha test manually. It may take a few manual passes to work. Rinse-and-repeat.
 
@@ -113,7 +113,7 @@ pool = Pool(num_worker_threads)
 
 <br>
 
-<ol start="5"><li><b>Full Code</b></li></ol>
+<ol start="5" id="full-code"><li><b>Full Code</b></li></ol>
 
 {% highlight python %}
 from lxml import html
