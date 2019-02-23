@@ -56,6 +56,8 @@ result_url = input('Paste the result url here...') #Copy and paste the token, th
 con.request_token(result_url)
 {% endhighlight %}
 
+<br>
+
 <ol start="5" id="final-code"><li><b>Sending Email Code</b></li></ol>
 
 Once you are setup, the token will automatically refresh for you. You can begin sending emails or work with the API as needed. The default email body setting is HTML, so you do not need to change settings to send HTML emails.
