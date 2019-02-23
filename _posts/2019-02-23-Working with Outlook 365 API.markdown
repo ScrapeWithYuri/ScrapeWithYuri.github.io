@@ -20,9 +20,9 @@ This tutortial will walk you through how to setup and work with the Outlook API 
 
 <ol start="2"><li><b>General Overview</b></li></ol>
 
-Credit goes to <a href='https://github.com/O365/python-o365'>janscas</a> for writing the o365 python library.
+Credit goes to <a href='https://github.com/O365/python-o365'>janscas</a> for writing the O365 python library.
 
-I am writing this tutorial because I was not happy with their setup and walkthrough. With the API change from v1 to v2, basic authentication is no longer allowed. Using the latest o365 library helps with the authentication.
+I am writing this tutorial because I was not happy with their setup and walkthrough. With the API change from v1 to v2, basic authentication is no longer allowed. Using the latest O365 library helps with the authentication.
 
 <br>
 
