@@ -20,7 +20,7 @@ This tutortial will walk you through how to setup and work with the Outlook API 
 
 <ol start="2"><li><b>General Overview</b></li></ol>
 
-Credit goes to <a href='https://github.com/O365/python-o365'>janscas</a> for writing the O365 python library.
+Credit goes to <a href='https://github.com/O365/python-o365' target='_blank'>janscas</a> for writing the O365 python library.
 
 I am writing this tutorial because I was not happy with their setup and walkthrough. With the API change from v1 to v2, basic authentication is no longer allowed. Using the latest O365 library helps with the authentication.
 
@@ -28,7 +28,7 @@ I am writing this tutorial because I was not happy with their setup and walkthro
 
 <ol start="3" id="setup"><li><b>Setup</b></li></ol>
 
-<ul><li>Login at <a href='https://apps.dev.microsoft.com/'>Microsoft Application Registration Portal</a></li>
+<ul><li>Login at <a href='https://apps.dev.microsoft.com/' target='_blank'>Microsoft Application Registration Portal</a></li>
 <li>Create an app, note your app id (client_id)</li>
 <li>Generate a new password (client_secret) under "Application Secrets" section</li>
 <li>Under the "Platform" section, add a new Web platform and set "https://outlook.office365.com/owa/" as the redirect URL</li>
