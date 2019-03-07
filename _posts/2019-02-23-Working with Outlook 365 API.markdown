@@ -5,6 +5,17 @@ date:   2019-02-23 19:31:43 +0700
 categories: [python, Outlook 365 API]
 ---
 
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-9385693714845249"
+     data-ad-slot="4112767888"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 <br>
 
 This tutortial will walk you through how to setup and work with the Outlook API v2.
@@ -17,6 +28,17 @@ This tutortial will walk you through how to setup and work with the Outlook API 
 <li>Libraries: O365</li></ul>
 
 <br>
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-9385693714845249"
+     data-ad-slot="4112767888"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <ol start="2"><li><b>General Overview</b></li></ol>
 
