@@ -31,6 +31,14 @@ This tutortial will walk you through how to setup and work with the Outlook API 
 
 <br>
 
+<ol start="2"><li><b>General Overview</b></li></ol>
+
+Credit goes to <a href='https://github.com/O365/python-o365' target='_blank'>janscas</a> for writing the O365 python library.
+
+I am writing this tutorial because I was not happy with their setup and walkthrough. With the API change from v1 to v2, basic authentication is no longer allowed. Using the latest O365 library helps with the authentication.
+
+<br>
+
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <ins class="adsbygoogle"
      style="display:block; text-align:center;"
@@ -41,14 +49,6 @@ This tutortial will walk you through how to setup and work with the Outlook API 
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
-
-<ol start="2"><li><b>General Overview</b></li></ol>
-
-Credit goes to <a href='https://github.com/O365/python-o365' target='_blank'>janscas</a> for writing the O365 python library.
-
-I am writing this tutorial because I was not happy with their setup and walkthrough. With the API change from v1 to v2, basic authentication is no longer allowed. Using the latest O365 library helps with the authentication.
-
-<br>
 
 <ol start="3" id="setup"><li><b>Setup</b></li></ol>
 
