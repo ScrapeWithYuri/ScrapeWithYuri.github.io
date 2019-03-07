@@ -7,6 +7,19 @@ categories: [web scraping, visual basic, Excel VBA, Zillow]
 
 <br>
 
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-9385693714845249"
+     data-ad-slot="4112767888"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+<br>
+
 This tutortial will walk you through how to scrape hundreds of thousands of Zillow property URLs to be used in <a href="/python/web%20scraping/zillow/2019/02/10/Scrape-Zillow-Hundreds-of-Thousands-of-Properties-Pt.-2-without-Tax-Data.html">Part 2</a>.
 
 <br>
@@ -14,6 +27,19 @@ This tutortial will walk you through how to scrape hundreds of thousands of Zill
 <ol start="1"><li><b>Prerequites</b></li></ol>
 
 <ul><li>Excel VBA</li></ul>
+
+<br>
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-9385693714845249"
+     data-ad-slot="4112767888"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <br>
 
@@ -34,6 +60,19 @@ You will notice Sheet1 and Sheet2 in the code. These are referencing the code na
 <br>
 
 <img src="{{ "/static/img/visual basic.png" | prepend: site.baseurl | replace: '//', '/' }}" />
+
+<br>
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-9385693714845249"
+     data-ad-slot="4112767888"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <br>
 
