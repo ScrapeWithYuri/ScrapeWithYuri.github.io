@@ -50,6 +50,8 @@ I am writing this tutorial because I was not happy with their setup and walkthro
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
+<br>
+
 <ol start="3" id="setup"><li><b>Setup</b></li></ol>
 
 <ul><li>Login at <a href='https://apps.dev.microsoft.com/' target='_blank'>Microsoft Application Registration Portal</a></li>
@@ -92,6 +94,8 @@ con.request_token(result_url)
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+
+<br>
 
 <ol start="5" id="final-code"><li><b>Sending Email Code</b></li></ol>
 
