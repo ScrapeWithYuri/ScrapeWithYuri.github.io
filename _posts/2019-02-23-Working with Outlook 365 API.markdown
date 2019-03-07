@@ -5,6 +5,8 @@ date:   2019-02-23 19:31:43 +0700
 categories: [python, Outlook 365 API]
 ---
 
+<br>
+
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <ins class="adsbygoogle"
      style="display:block; text-align:center;"
@@ -79,6 +81,17 @@ con.request_token(result_url)
 {% endhighlight %}
 
 <br>
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-9385693714845249"
+     data-ad-slot="4112767888"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <ol start="5" id="final-code"><li><b>Sending Email Code</b></li></ol>
 
