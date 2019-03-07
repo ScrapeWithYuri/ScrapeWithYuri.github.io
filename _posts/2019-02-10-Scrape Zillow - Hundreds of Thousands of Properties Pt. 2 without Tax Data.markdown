@@ -7,6 +7,23 @@ categories: [python, web scraping, zillow]
 
 <br>
 
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-9385693714845249"
+     data-ad-slot="4112767888"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+<br>
+
+This tutortial will walk you through how to setup and work with the Outlook API v2.
+
+<br>
+
 This tutortial will walk you through how to scrape hundreds of thousands of Zillow property data. This article assumes you have Zillow property URLs already or have already read <a href="/web%20scraping/visual%20basic/excel%20vba/zillow/2019/02/17/Scrape-Zillow-Hundreds-of-Thousands-of-Properties-Pt.-1.html">Part 1</a>.
 
 <br>
@@ -30,6 +47,23 @@ The below program will read in Zillow property URLs (without the zillow.com pref
 Generally, the program is pinging the Zillow property URL and looking for the hdpApolloPreloadedData HTML element by ID. This HTML element has JSON data about the property, which the program processes. After extracting the relevant data, the program will save the data in a tab-delimited file based on your chosen location.
 
 The downside of pinging the Zillow URL directly is that the property tax and school information is not accessible. Extracting this data is explained in the article Scrape Zillow - Hundreds of Thousands of Properties Pt. 2 with Tax Data.
+
+<br>
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-9385693714845249"
+     data-ad-slot="4112767888"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+<br>
+
+This tutortial will walk you through how to setup and work with the Outlook API v2.
 
 <br>
 
@@ -110,6 +144,23 @@ with codecs.open('path_where_your_data_is_here', mode='r', encoding='utf-8') as 
 num_worker_threads = 300
 pool = Pool(num_worker_threads)
 {% endhighlight %}
+
+<br>
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-9385693714845249"
+     data-ad-slot="4112767888"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+<br>
+
+This tutortial will walk you through how to setup and work with the Outlook API v2.
 
 <br>
 
