@@ -7,17 +7,6 @@ categories: [python, Outlook 365 API]
 
 <br>
 
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<ins class="adsbygoogle"
-     style="display:block; text-align:center;"
-     data-ad-layout="in-article"
-     data-ad-format="fluid"
-     data-ad-client="ca-pub-9385693714845249"
-     data-ad-slot="4112767888"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
 <br>
 
 This tutortial will walk you through how to setup and work with the Outlook API v2.
@@ -38,17 +27,6 @@ Credit goes to <a href='https://github.com/O365/python-o365' target='_blank'>jan
 I am writing this tutorial because I was not happy with their setup and walkthrough. With the API change from v1 to v2, basic authentication is no longer allowed. Using the latest O365 library helps with the authentication.
 
 <br>
-
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<ins class="adsbygoogle"
-     style="display:block; text-align:center;"
-     data-ad-layout="in-article"
-     data-ad-format="fluid"
-     data-ad-client="ca-pub-9385693714845249"
-     data-ad-slot="4112767888"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
 
 <br>
 
@@ -83,17 +61,6 @@ con.request_token(result_url)
 {% endhighlight %}
 
 <br>
-
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<ins class="adsbygoogle"
-     style="display:block; text-align:center;"
-     data-ad-layout="in-article"
-     data-ad-format="fluid"
-     data-ad-client="ca-pub-9385693714845249"
-     data-ad-slot="4112767888"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
 
 <br>
 
