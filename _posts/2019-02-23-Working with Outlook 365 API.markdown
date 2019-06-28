@@ -40,6 +40,8 @@ I am writing this tutorial because I was not happy with their setup and walkthro
 
 <br>
 
+<br>
+
 <ol start="4" id="setup-code"><li><b>Setup Code</b></li></ol>
 
 This part confused me. Once you run the below setup code, you will be given a URL to click. This will take you to Microsoft's login; after logging in to your account, you will be redirected to your Outlook mailbox. <b>Look at the URL in the browser, the token is appended to the end of the URL.</b> This is what you need to copy.
